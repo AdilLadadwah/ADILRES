@@ -23,6 +23,8 @@ public class Application {
 	public static void main(String[] args) throws SocketException, IOException {
 
 		SpringApplication.run(Application.class, args);
+		
+		System.out.println("f");
 		/*
 		RouterAPIs.getInstance().connect();
 		RouterAPIs.getInstance().sendCommand("sh run");
